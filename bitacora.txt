@@ -14,3 +14,4 @@ SECCION 2: BACKEND(NODE-EXPRES-MONGODB)
 Reproducir
 11. Creación del BackEnd y instalación de packetes
 12. Configuración nodemon
+13. Configuracion del servidor
