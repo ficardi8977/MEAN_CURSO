@@ -1,0 +1,14 @@
+SECCION 1: FRONTEND (ANGULAR)
+1. Creación del proyecto
+2. Configuración Bootstrap
+3. Creación de componentes, modelos y servicio
+4. Routing
+5. Listar Producto HTML
+6. Configuración Google Fonts y FontAwesome
+7. Crear Producto HTML
+8. Crear Producto - Formulario Reactivo
+9. Crear Producto - Validaciones
+10. Creamos objeto producto - routing y toastr
+
+SECCION 2: BACKEND(NODE-EXPRES-MONGODB)
+
