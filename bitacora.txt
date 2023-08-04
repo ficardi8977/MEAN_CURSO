@@ -15,3 +15,5 @@ Reproducir
 11. Creación del BackEnd y instalación de packetes
 12. Configuración nodemon
 13. Configuracion del servidor
+14. Configuramos MongoDB Atlas y Mongo Compass
+15. Conexión a la base de datos
