@@ -20,3 +20,4 @@ Reproducir
 16. Configuracion routers
 17. Controllador producto
 18. Enviamos datos desde la API
+19. Definición del modelo con mongoose
