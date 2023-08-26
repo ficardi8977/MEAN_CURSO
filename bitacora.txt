@@ -24,3 +24,5 @@ Reproducir
 20. Creación del producto
 21. Obtenemos todos los productos
 22. Actualizamos producto
+23. Obtenemos un producto
+24. Eliminar Producto
