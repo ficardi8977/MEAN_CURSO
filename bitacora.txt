@@ -26,3 +26,6 @@ Reproducir
 22. Actualizamos producto
 23. Obtenemos un producto
 24. Eliminar Producto
+
+SECCION 3: Integracion BACKEND y FRONTEND
+25. Obtenemos listado de productos
