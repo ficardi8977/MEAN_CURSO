@@ -1,3 +1,3 @@
 exports.crearProducto = (req, res) => {
-    console.log('desde crear producto');
+    console.log(req.body);
 }
