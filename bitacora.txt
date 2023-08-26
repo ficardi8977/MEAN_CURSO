@@ -22,3 +22,4 @@ Reproducir
 18. Enviamos datos desde la API
 19. Definición del modelo con mongoose
 20. Creación del producto
+21. Obtenemos todos los productos
