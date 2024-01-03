@@ -3,8 +3,8 @@
         <div class="col-lg-6 offset-lg-3">
          <div class="card">
             <div class="card-body text-center">
-                <span class="titulo">CREAR PRODUCTO</span>
-                <form class="mb-3" [formGroup]="productoForm" (ngSubmit)="agregarProducto()">
+                <span class="titulo">{{this.titulo}}</span>
+                <form class="mb-3" [formGroup]="productoForm" (ngSubmit)="guardarProducto()">
                     <div class="mb-3">
                       <input type="text" formControlName="producto" class="form-control form-control-lg" placeholder="Producto">
                       <div class="text-danger" *ngIf="productoForm.get('producto')?.hasError('required') && productoForm.get('producto')?.touched">
@@ -31,7 +31,7 @@
                     </div>
                     <div class="mb-3">
                         <button class="btn btn-secondary btn-lg float-start" routerLink="/">Volver</button>
-                        <button type="submit" (click)="agregarProducto()" [disabled]="productoForm.invalid" class="btn btn-success btn-lg float-end">Crear</button>
+                        <button type="submit" [disabled]="productoForm.invalid" class="btn btn-success btn-lg float-end">Guardar</button>
                     </div>
                 </form>
             </div>

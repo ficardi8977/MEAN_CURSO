@@ -20,4 +20,10 @@ export class ProductoService {
   postProducto(producto : producto) : Observable<any>{
     return this.http.post(this.url, producto);
   }
+  getProducto(_idProducto: any) : Observable<any>{
+    return this.http.get(this.url + _idProducto );
+  }
+  putProducto(id: string, producto : producto) : Observable<any>{
+    return this.http.put(this.url + id, producto);
+  }
 }

@@ -32,3 +32,5 @@ SECCION 3: Integracion BACKEND y FRONTEND
 26. Listamos productos
 27. Eliminar Producto
 28. Guardar Producto
+29. Editar Producto - Parte 1
+30. Editar Producto - Parte 2

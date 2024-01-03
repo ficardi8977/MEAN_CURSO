@@ -23,7 +23,7 @@
                         <td>${{producto.precio}}</td>
                         <td>
                             <i (click)="eliminarProducto(producto._id)" class="fa-solid fa-trash text-primary"></i>
-                            <i class="fa-regular fa-pen-to-square text-danger"></i>
+                            <i [routerLink]="['/editar-producto',producto._id]" class="fa-regular fa-pen-to-square text-danger"></i>
                         </td>
                       </tr>
                     </tbody>
