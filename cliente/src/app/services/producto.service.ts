@@ -13,4 +13,7 @@ export class ProductoService {
   getProductos() : Observable<any>{
     return this.http.get(this.url)
   }
+  deleteProducto(_idProducto: any) : Observable<any>{
+    return this.http.delete(this.url + _idProducto )
+  }
 }

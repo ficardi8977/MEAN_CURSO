@@ -25,7 +25,7 @@ import { ListarProductosComponent } from './components/listar-productos/listar-p
     ReactiveFormsModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
